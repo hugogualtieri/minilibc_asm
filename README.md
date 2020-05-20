@@ -1,6 +1,6 @@
 # minilibc_asm
 
-An epitech project realised in 1 month in 2020.
+An epitech project realised in 1 week in 2020.
 
 Project realised in Assembly x86-64
 
