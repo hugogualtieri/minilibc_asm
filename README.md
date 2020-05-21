@@ -28,24 +28,26 @@ or execute your program with your minilibc library
 
 ## Functions
 
-+ strcmp(): This function compares the two strings s1 and s2. It returns 0 if the two strings are equals, -1 if s1 is less than s2 and 1 if s1 is greater than s2.
++ strcmp(): This function compares the two strings s1 and s2.
 
-+ strcasecmp(): The strcasecmp() function compares the two strings s1 and s2, ignoring the case of the characters. It returns an integer less than, equal to, or greater than zero if s1 is found, respectively, to be less than, to match, or be greater than s2.
++ strcasecmp(): The strcasecmp() function compares the two strings s1 and s2, ignoring the case of the characters.
 
-+ strncmp():
++ strncmp(): The strncmp() function compares the n first bytes of the two strings s1 and s2.
 
-+ memcpy():
++ memcpy(): The memcpy() function copies n bytes from memory area src to memory area dest. The memory areas must not overlap. Use memmove() if the memory areas do overlap.
 
-+ rindex():
++ rindex(): The rindex() function returns a pointer to the last occurrence of the character c in the string s.
 
-+ strstr():
++ strstr(): The strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (aq\0aq) are not compared.
 
-+ strcspn():
++ strcspn(): The strcspn() function calculates the length of the initial segment of s which consists entirely of bytes not in reject.
 
-+ strlen():
++ strlen(): The strlen() function calculates the length of the string s, excluding the terminating null byte (aq\0aq).
 
-+ strchr():
++ strchr(): The strchr() function returns a pointer to the first occurrence of the character c in the string s.
 
-+ memset():
++ memset(): The memset() function fills the first n bytes of the memory area pointed to by s with the constant byte c.
 
-+ memmove():
++ memmove(): The memmove() function copies n bytes from memory area src to memory area dest. The memory areas may overlap: copying takes place as though the bytes in src are first copied into a temporary array that does not overlap src or dest, and the bytes are then copied from the temporary array to dest.
+
+See the mans to understand the arguments and the return value of each function.
