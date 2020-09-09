@@ -6,7 +6,7 @@ Project realised in Assembly x86-64.
 
 ## Presentation
 
-The goal of the project is to create a dynamic library to replace th standard C library.
+The goal of the project is to create a dynamic library to replace the standard C library.
 
 ## Prerequisites
 
